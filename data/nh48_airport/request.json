@@ -1,0 +1,56 @@
+{
+  "provider": "OpenStreetMap main API, sequential 2\u00d72 bounded tiles",
+  "tiles": [
+    {
+      "bbox_wsen": [
+        77.085,
+        28.5,
+        77.1225,
+        28.531
+      ],
+      "retrieved_at_utc": "2026-10-22T15:35:26.096781+00:00",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=77.0850000%2C28.5000000%2C77.1225000%2C28.5310000",
+      "sha256": "8da919e79d3c5fa3855bc8c0f860874e045db27c129202b676eb3f92100e3335"
+    },
+    {
+      "bbox_wsen": [
+        77.085,
+        28.531,
+        77.1225,
+        28.562
+      ],
+      "retrieved_at_utc": "2026-10-22T15:35:36.083346+00:00",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=77.0850000%2C28.5310000%2C77.1225000%2C28.5620000",
+      "sha256": "eca3ddfb46e3517da0d3d3aebd571d0d65d9c7f7ada163905ab7f685c636981a"
+    },
+    {
+      "bbox_wsen": [
+        77.1225,
+        28.5,
+        77.16,
+        28.531
+      ],
+      "retrieved_at_utc": "2026-10-22T15:35:45.733376+00:00",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=77.1225000%2C28.5000000%2C77.1600000%2C28.5310000",
+      "sha256": "155965935a06067bf47c2d095a09b3fbb34465f3225c77db800cea0f5b5227b7"
+    },
+    {
+      "bbox_wsen": [
+        77.1225,
+        28.531,
+        77.16,
+        28.562
+      ],
+      "retrieved_at_utc": "2026-10-22T15:35:55.954259+00:00",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=77.1225000%2C28.5310000%2C77.1600000%2C28.5620000",
+      "sha256": "f6f4390cf07fe795f016b9669413b09991f1fc2cef6424c223ff625a32a305ed"
+    }
+  ],
+  "bbox_wsen": [
+    77.085,
+    28.5,
+    77.16,
+    28.562
+  ],
+  "temporal_consistency": "four nearby download times, not a single atomic historical snapshot"
+}

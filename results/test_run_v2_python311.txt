@@ -1,0 +1,37 @@
+Uninstalled 1 package in 1ms
+Installed 1 package in 3ms
+============================= test session starts ==============================
+platform linux -- Python 3.11.17, pytest-9.1.1, pluggy-1.7.0
+rootdir: /workspace/scratch/7b5f43718ee8/highwaynet-ai
+configfile: pyproject.toml
+testpaths: tests
+plugins: cov-7.1.0, anyio-4.15.1
+collected 73 items
+
+tests/test_app.py ..                                                     [  2%]
+tests/test_engine.py ............................................        [ 63%]
+tests/test_v2.py ...........................                             [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.11.17-final-0 _______________
+
+Name                            Stmts   Miss  Cover   Missing
+-------------------------------------------------------------
+src/highwaynet/__init__.py          1      0   100%
+src/highwaynet/analysis.py        118      2    98%   41, 128
+src/highwaynet/case_study.py       97      7    93%   38, 59, 70, 74, 118-119, 141
+src/highwaynet/cli.py              96     49    49%   85-146, 150
+src/highwaynet/data.py            123      7    94%   78, 80, 82, 85, 92, 95, 101
+src/highwaynet/demand.py           42      4    90%   21, 33, 40, 84
+src/highwaynet/experiments.py      27      0   100%
+src/highwaynet/maps.py             43      2    95%   115-116
+src/highwaynet/operating.py        46      5    89%   22, 52, 54, 58, 60
+src/highwaynet/planning.py        105      7    93%   21, 87, 138, 170, 203, 232-233
+src/highwaynet/resilience.py       77     10    87%   20, 34, 80, 90-91, 112, 119-120, 122, 129
+src/highwaynet/scenarios.py        88      2    98%   42, 52
+src/highwaynet/snapshot.py        154      9    94%   79, 84-85, 173, 181, 226, 275-276, 278
+src/highwaynet/studies.py          18      0   100%
+src/highwaynet/validation.py       43      4    91%   25, 31, 105-106
+-------------------------------------------------------------
+TOTAL                            1078    108    90%
+============================= 73 passed in 55.61s ==============================

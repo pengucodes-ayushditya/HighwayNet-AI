@@ -1,0 +1,22 @@
+{
+  "study": "nh48_airport",
+  "bbox_wsen": [
+    77.085,
+    28.5,
+    77.16,
+    28.562
+  ],
+  "imported_at_utc": "2026-10-22T15:36:00.671099+00:00",
+  "source": "OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "raw_sha256": "0c87dc04c0eb9f9ddc55dd97d650f518d5ea56b3a9542d60d030c12856d424a2",
+  "osm_base_timestamp": null,
+  "graph_sha256": "bcb4ea382f920acdba3f4a54c257a7c03ffe53b5976ae3733a30c134cbe7dd96",
+  "nodes": 3793,
+  "directed_edges": 8107,
+  "osmnx_version": "2.1.1",
+  "access_filter": "conservative public passenger-car roads; conditional rules unmodeled",
+  "traffic_observations": false,
+  "turn_restrictions_enforced": false,
+  "fingerprint_version": 2
+}

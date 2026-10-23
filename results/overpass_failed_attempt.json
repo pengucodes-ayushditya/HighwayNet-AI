@@ -1,0 +1,11 @@
+{
+  "status": "failed",
+  "error": "HTTPSConnectionPool(host='overpass-api.de', port=443): Read timed out. (read timeout=10)",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "bbox_wsen": [
+    77.085,
+    28.5,
+    77.16,
+    28.562
+  ]
+}

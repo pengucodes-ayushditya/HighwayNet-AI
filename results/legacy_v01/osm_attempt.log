@@ -1,0 +1,1 @@
+Live OSM download was attempted during this build. Automatic approval review rejected an OSMnx request to 8.8.8.8 because the destination/payload was not justified as an authorized OSM service. No alternate route was used. No live graph or live benchmark was obtained. Offline synthetic results are provided instead.

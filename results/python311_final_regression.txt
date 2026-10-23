@@ -1,0 +1,37 @@
+warning: Ignoring existing virtual environment linked to non-existent Python interpreter: `.venv311/bin/python` -> `/root/.local/share/uv/python/cpython-3.11-linux-x86_64-gnu/bin/python3.11`
+Downloading cpython-3.11.17-linux-x86_64-gnu (download) (29.4MiB)
+ Downloaded cpython-3.11.17-linux-x86_64-gnu (download)
+Using CPython 3.11.17
+Removed virtual environment at: .venv311
+Creating virtual environment at: .venv311
+   Building highwaynet-ai @ file:///workspace/scratch/7b5f43718ee8/highwaynet-ai
+Downloading pygments (1.2MiB)
+Downloading pyogrio (31.8MiB)
+Downloading pyarrow (51.4MiB)
+Downloading pandas (12.2MiB)
+Downloading networkx (2.0MiB)
+Downloading numpy (16.1MiB)
+Downloading shapely (2.2MiB)
+Downloading plotly (9.5MiB)
+Downloading pydeck (10.9MiB)
+Downloading pillow (6.6MiB)
+Downloading ruff (9.9MiB)
+Downloading streamlit (9.9MiB)
+Downloading pyproj (9.1MiB)
+ Downloaded pandas
+ Downloaded numpy
+ Downloaded pydeck
+ Downloaded streamlit
+ Downloaded ruff
+ Downloaded pyogrio
+ Downloaded plotly
+ Downloaded shapely
+ Downloaded networkx
+ Downloaded pyproj
+ Downloaded pillow
+ Downloaded pygments
+ Downloaded pyarrow
+      Built highwaynet-ai @ file:///workspace/scratch/7b5f43718ee8/highwaynet-ai
+Installed 54 packages in 61ms
+.                                                                        [100%]
+1 passed in 1.35s

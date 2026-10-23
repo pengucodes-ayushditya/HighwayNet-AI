@@ -1,0 +1,7 @@
+name,node,role,node_lon,node_lat,snap_distance_m,coordinate_status
+Fictional area 0,0,residential,77.105,28.741,0.0,fictional demo anchor
+Fictional area 2,2,residential,77.11,28.741,0.0,fictional demo anchor
+Fictional area 5,5,residential,77.11,28.7435,0.0,fictional demo anchor
+Fictional area 9,9,gateway,77.11500000000001,28.741,0.0,fictional demo anchor
+Fictional area 12,12,gateway,77.11500000000001,28.7435,0.0,fictional demo anchor
+Fictional area 17,17,gateway,77.12,28.746,0.0,fictional demo anchor

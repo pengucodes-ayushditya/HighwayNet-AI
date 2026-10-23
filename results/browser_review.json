@@ -1,0 +1,9 @@
+{
+  "browser": "Chromium headless shell via Playwright",
+  "visits": "localhost only",
+  "real_study_loaded": true,
+  "map_box_selection_succeeded": true,
+  "mobile_root_width": 390,
+  "mobile_viewport_width": 390,
+  "page_errors": []
+}

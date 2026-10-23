@@ -1,0 +1,112 @@
+{
+  "version": "0.2.0",
+  "source": "synthetic",
+  "real_roads": false,
+  "traffic_observations": false,
+  "created_at_utc": "2026-10-22T15:54:38.718697+00:00",
+  "nodes": 18,
+  "directed_edges": 53,
+  "od_pairs": 30,
+  "baseline_graph_sha256": "5aa0f3853c60842e05d01457a43c0e7ba76e77400d927a12df31200f10e70640",
+  "original_graph_sha256": "82a0aa0841e2f7f648846a0fc4544097291b090051b8e948884197c0d1f3ba38",
+  "candidate_budget": 16,
+  "evaluated_candidates": 16,
+  "candidate_objective": "new reachable demand first; then seconds per assumed cost unit",
+  "candidate_cost": "500 assumed arbitrary units per km of modeled new alignment",
+  "upgrade": {
+    "edges": [
+      [
+        4,
+        5,
+        0
+      ],
+      [
+        5,
+        12,
+        0
+      ],
+      [
+        12,
+        9,
+        0
+      ]
+    ],
+    "speed_factor": 1.4,
+    "max_speed_kph": 100,
+    "assumed_cost_units": 100
+  },
+  "new_connection": {
+    "u": 2,
+    "v": 9,
+    "speed_kph": 40,
+    "circuity": 1.2,
+    "bidirectional": true,
+    "modeled_length_m": 586.0848764185195,
+    "assumed_cost_units": 293.0424382092597
+  },
+  "corridor_closure": {
+    "closed_directed_edges": 6,
+    "lost_od_pairs": 0,
+    "lost_baseline_reachable_demand_share": 0.0,
+    "common_od_weighted_detour_seconds": 1956.5789506922188,
+    "affected_od_pairs": 24
+  },
+  "closed_edges": [
+    [
+      4,
+      5,
+      0
+    ],
+    [
+      5,
+      4,
+      0
+    ],
+    [
+      5,
+      12,
+      0
+    ],
+    [
+      9,
+      12,
+      0
+    ],
+    [
+      12,
+      5,
+      0
+    ],
+    [
+      12,
+      9,
+      0
+    ]
+  ],
+  "stages": {
+    "load_and_anchors_seconds": 0.004327611999997316,
+    "hybrid_ranking_seconds": 0.02623603700021704,
+    "candidate_search_seconds": 0.014405015000193089,
+    "comparison_and_alternatives_seconds": 0.03133144000003085,
+    "sensitivity_seconds": 0.022440379999807192
+  },
+  "audit": {
+    "weak_components": 1,
+    "strong_components": 1,
+    "named_edges": 53,
+    "tagged_speed_edges": 53,
+    "mapped_signal_nodes": 0
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "versions": {
+    "networkx": "3.7",
+    "osmnx": "2.1.1",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3"
+  },
+  "sources": [],
+  "demand_status": "assumed relative OD weights between approximate area anchors",
+  "capacity_assignment": false,
+  "construction_feasibility_validated": false
+}

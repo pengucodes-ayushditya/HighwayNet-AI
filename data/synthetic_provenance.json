@@ -1,0 +1,9 @@
+{
+  "source": "Project-authored fictional network; no real OSM data",
+  "nodes": 18,
+  "directed_edges": 53,
+  "sha256": "82a0aa0841e2f7f648846a0fc4544097291b090051b8e948884197c0d1f3ba38",
+  "od_seed": 42,
+  "demand": "60 uniform synthetic trips per unspecified analysis period",
+  "fingerprint_version": 2
+}

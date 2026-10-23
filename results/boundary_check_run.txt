@@ -1,0 +1,5 @@
+                     count  sum
+contraction_degrees            
+0.0000                  20   20
+0.0025                  20   20
+0.0050                  20   20

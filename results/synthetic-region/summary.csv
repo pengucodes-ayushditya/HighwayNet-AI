@@ -1,0 +1,3 @@
+scenario,assumed_cost_units,baseline_weighted_seconds_reachable,common_od_weighted_savings_seconds,common_od_savings_pct,benefit_seconds_per_cost_unit,affected_od_pairs,improved_od_pairs,newly_reachable_od_pairs,lost_od_pairs,baseline_reachable_demand_share,reachable_demand_share,baseline_two_edge_disjoint_demand_share,two_edge_disjoint_demand_share
+A · Upgrade,100,17703.420529512354,326.50190414990834,1.8442871173150737,3.2650190414990834,13,13,0,0,1.0,1.0,1.0,1.0
+B · New connection,300,17703.420529512354,0.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0

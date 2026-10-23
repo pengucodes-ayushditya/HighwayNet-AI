@@ -1,0 +1,15 @@
+BROWSER warning [GroupMarkerNotSet(crbug.com/242999)!:A0301C0034000000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content.
+BROWSER warning [GroupMarkerNotSet(crbug.com/242999)!:A0601C0034000000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content.
+BROWSER warning [.WebGL-0x94000c0e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+BROWSER warning [.WebGL-0x9403278d00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+BROWSER warning [.WebGL-0x94000c0e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+BROWSER warning [.WebGL-0x9403278d00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+{
+  "browser": "Chromium headless shell via Playwright",
+  "visits": "localhost only",
+  "real_study_loaded": true,
+  "map_box_selection_succeeded": true,
+  "mobile_root_width": 390,
+  "mobile_viewport_width": 390,
+  "page_errors": []
+}

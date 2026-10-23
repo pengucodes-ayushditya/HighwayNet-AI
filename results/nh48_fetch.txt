@@ -1,0 +1,1 @@
+Real OSM snapshot: 3793 nodes 8107 directed edges

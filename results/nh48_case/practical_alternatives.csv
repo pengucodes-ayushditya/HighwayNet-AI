@@ -1,0 +1,4 @@
+,primary_route_disjoint_demand_share,bounded_primary_route_disjoint_demand_share,max_time_stretch
+A · Upgrade,0.3,0.0,1.5
+B · New connection,0.6,0.0,1.5
+Baseline,0.3,0.0,1.5

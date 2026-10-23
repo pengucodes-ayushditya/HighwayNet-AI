@@ -1,0 +1,6 @@
+name,node,role,anchor_lon,anchor_lat,node_lon,node_lat,snap_distance_m,coordinate_status
+Mahipalpur area,7084719843,mixed,77.127,28.548,77.1269403,28.5476345,40.92688941666283,approximate area anchor; nearest >=3-neighbor road junction; access unverified
+Shiv Murti approach area,11490973299,gateway,77.129,28.536,77.1292943,28.5363772,50.766512259747046,approximate area anchor; nearest >=3-neighbor road junction; access unverified
+Rajokri area,4165747276,residential,77.107,28.512,77.1075177,28.5120459,50.93388076229048,approximate area anchor; nearest >=3-neighbor road junction; access unverified
+Rangpuri area,4218827707,residential,77.119,28.53,77.1178013,28.528723,183.83470950961927,approximate area anchor; nearest >=3-neighbor road junction; access unverified
+Vasant Kunj western approach,10301921065,mixed,77.152,28.535,77.1523988,28.5348477,42.52466460336625,approximate area anchor; nearest >=3-neighbor road junction; access unverified

@@ -1,0 +1,25 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.17, pytest-9.1.1, pluggy-1.7.0
+rootdir: /workspace/scratch/7b5f43718ee8/highwaynet-ai
+configfile: pyproject.toml
+testpaths: tests
+plugins: anyio-4.15.1, cov-7.1.0
+collected 46 items
+
+tests/test_app.py ..                                                     [  4%]
+tests/test_engine.py ............................................        [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.11.17-final-0 _______________
+
+Name                          Stmts   Miss  Cover   Missing
+-----------------------------------------------------------
+src/highwaynet/__init__.py        1      0   100%
+src/highwaynet/analysis.py      108      3    97%   41, 82, 128
+src/highwaynet/cli.py            65     18    72%   85-104, 108
+src/highwaynet/data.py          107      6    94%   76, 78, 80, 83, 90, 96
+src/highwaynet/maps.py           38      1    97%   17
+src/highwaynet/scenarios.py      96      3    97%   42, 52, 84
+-----------------------------------------------------------
+TOTAL                           415     31    93%
+============================== 46 passed in 4.03s ==============================

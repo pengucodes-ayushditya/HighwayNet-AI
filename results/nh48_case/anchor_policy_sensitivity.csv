@@ -1,0 +1,3 @@
+minimum_road_neighbors,maximum_snap_distance_m,mean_snap_distance_m,reachable_demand_share,two_edge_disjoint_demand_share
+1,118.57822607795838,50.1369545034771,1.0,0.0
+3,183.83470950961927,73.79733131033717,1.0,0.3

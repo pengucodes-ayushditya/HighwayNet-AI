@@ -1,0 +1,240 @@
+{
+  "version": "0.2.0",
+  "source": "nh48_airport",
+  "real_roads": true,
+  "traffic_observations": false,
+  "created_at_utc": "2026-10-22T15:54:37.397437+00:00",
+  "nodes": 3793,
+  "directed_edges": 8107,
+  "od_pairs": 20,
+  "baseline_graph_sha256": "85899d6818bb671f9c04c8ba0a2439b0e0133e717d683489f3b71f1df5f79ab0",
+  "original_graph_sha256": "bcb4ea382f920acdba3f4a54c257a7c03ffe53b5976ae3733a30c134cbe7dd96",
+  "candidate_budget": 16,
+  "evaluated_candidates": 14,
+  "candidate_objective": "new reachable demand first; then seconds per assumed cost unit",
+  "candidate_cost": "500 assumed arbitrary units per km of modeled new alignment",
+  "upgrade": {
+    "edges": [
+      [
+        9869939308,
+        2008756197,
+        0
+      ],
+      [
+        2008756197,
+        11478360793,
+        0
+      ],
+      [
+        11478360793,
+        11478360791,
+        0
+      ],
+      [
+        11478360791,
+        11478360786,
+        0
+      ],
+      [
+        11478360786,
+        9869840795,
+        0
+      ],
+      [
+        9869840795,
+        9869840796,
+        0
+      ],
+      [
+        9869840796,
+        11478597487,
+        0
+      ],
+      [
+        11478597487,
+        9870130822,
+        0
+      ],
+      [
+        9870130822,
+        2008756246,
+        0
+      ],
+      [
+        2008756246,
+        4211840565,
+        0
+      ],
+      [
+        4211840565,
+        4211840568,
+        0
+      ],
+      [
+        4211840568,
+        9869643691,
+        0
+      ],
+      [
+        9869643691,
+        4211841412,
+        0
+      ],
+      [
+        4211841412,
+        4211841424,
+        0
+      ],
+      [
+        4211841424,
+        7084710773,
+        0
+      ],
+      [
+        7084710773,
+        2008756259,
+        0
+      ],
+      [
+        2008756259,
+        314357000,
+        0
+      ]
+    ],
+    "speed_factor": 1.4,
+    "max_speed_kph": 100,
+    "assumed_cost_units": 100
+  },
+  "new_connection": {
+    "u": 9865312635,
+    "v": 9832138338,
+    "speed_kph": 40,
+    "circuity": 1.2,
+    "bidirectional": true,
+    "modeled_length_m": 919.6483700761444,
+    "assumed_cost_units": 459.8241850380722
+  },
+  "corridor_closure": {
+    "closed_directed_edges": 17,
+    "lost_od_pairs": 0,
+    "lost_baseline_reachable_demand_share": 0.0,
+    "common_od_weighted_detour_seconds": 563.7314664893584,
+    "affected_od_pairs": 5
+  },
+  "closed_edges": [
+    [
+      2008756197,
+      11478360793,
+      0
+    ],
+    [
+      2008756246,
+      4211840565,
+      0
+    ],
+    [
+      2008756259,
+      314357000,
+      0
+    ],
+    [
+      4211840565,
+      4211840568,
+      0
+    ],
+    [
+      4211840568,
+      9869643691,
+      0
+    ],
+    [
+      4211841412,
+      4211841424,
+      0
+    ],
+    [
+      4211841424,
+      7084710773,
+      0
+    ],
+    [
+      7084710773,
+      2008756259,
+      0
+    ],
+    [
+      9869643691,
+      4211841412,
+      0
+    ],
+    [
+      9869840795,
+      9869840796,
+      0
+    ],
+    [
+      9869840796,
+      11478597487,
+      0
+    ],
+    [
+      9869939308,
+      2008756197,
+      0
+    ],
+    [
+      9870130822,
+      2008756246,
+      0
+    ],
+    [
+      11478360786,
+      9869840795,
+      0
+    ],
+    [
+      11478360791,
+      11478360786,
+      0
+    ],
+    [
+      11478360793,
+      11478360791,
+      0
+    ],
+    [
+      11478597487,
+      9870130822,
+      0
+    ]
+  ],
+  "stages": {
+    "load_and_anchors_seconds": 0.6845108449997497,
+    "hybrid_ranking_seconds": 7.323410859999967,
+    "candidate_search_seconds": 2.2375459049999336,
+    "comparison_and_alternatives_seconds": 6.531975360999695,
+    "sensitivity_seconds": 2.1089680860000044
+  },
+  "audit": {
+    "weak_components": 69,
+    "strong_components": 198,
+    "named_edges": 751,
+    "tagged_speed_edges": 153,
+    "mapped_signal_nodes": 25
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "versions": {
+    "networkx": "3.7",
+    "osmnx": "2.1.1",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3"
+  },
+  "sources": [
+    "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2132154",
+    "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279818"
+  ],
+  "demand_status": "assumed relative OD weights between approximate area anchors",
+  "capacity_assignment": false,
+  "construction_feasibility_validated": false
+}

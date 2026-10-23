@@ -1,0 +1,21 @@
+name: Quality checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv python install ${{ matrix.python-version }}
+      - run: uv sync --frozen --python ${{ matrix.python-version }}
+      - run: uv run --python ${{ matrix.python-version }} ruff check .
+      - run: uv run --python ${{ matrix.python-version }} ruff format --check .
+      - run: uv run --python ${{ matrix.python-version }} pytest --cov=highwaynet --cov-report=term-missing
+      - run: uv run --python ${{ matrix.python-version }} highwaynet benchmark --out results/local/ci --repeats 1

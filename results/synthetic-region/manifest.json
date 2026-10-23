@@ -1,0 +1,59 @@
+{
+  "source": "synthetic-region",
+  "synthetic": true,
+  "created_at_utc": "2026-10-21T16:52:15.004097+00:00",
+  "graph_sha256": "ce3d270c0d22ecc0feb512d46b911fb043d098f84748128302822a60054220bd",
+  "nodes": 128,
+  "directed_edges": 453,
+  "od_pairs": 60,
+  "seed": 42,
+  "candidate_limit": 40,
+  "load_seconds": 0.006445073999998385,
+  "runtime_runs": [
+    {
+      "ranking_seconds": 0.6424165469999821,
+      "comparison_seconds": 0.21683185299997376
+    },
+    {
+      "ranking_seconds": 0.9433291539999686,
+      "comparison_seconds": 0.2050835449999795
+    },
+    {
+      "ranking_seconds": 0.8864082370000119,
+      "comparison_seconds": 0.28925751299999547
+    }
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "versions": {
+    "networkx": "3.7",
+    "osmnx": "2.1.1",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "geopandas": "1.2.0",
+    "streamlit": "1.66.0"
+  },
+  "scenario_a": {
+    "edges": [
+      [
+        96,
+        39,
+        0
+      ]
+    ],
+    "speed_factor": 1.4,
+    "max_speed_kph": 100,
+    "assumed_cost": 100
+  },
+  "scenario_b": {
+    "u": 0,
+    "v": 14,
+    "speed_kph": 40,
+    "circuity": 1.2,
+    "bidirectional": true,
+    "modeled_length_m": 1789.39609415229,
+    "assumed_cost": 300
+  },
+  "demand": "Uniform synthetic weights, 1 assumed trip per pair per unspecified period",
+  "cost_units": "arbitrary assumed total units; not rupees or engineering estimates"
+}

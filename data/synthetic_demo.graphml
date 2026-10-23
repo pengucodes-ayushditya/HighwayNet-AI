@@ -1,0 +1,677 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="travel_time" attr.type="string" />
+  <key id="d12" for="edge" attr.name="speed_source" attr.type="string" />
+  <key id="d11" for="edge" attr.name="speed_kph" attr.type="string" />
+  <key id="d10" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="d9" for="edge" attr.name="oneway" attr.type="string" />
+  <key id="d8" for="edge" attr.name="name" attr.type="string" />
+  <key id="d7" for="edge" attr.name="highway" attr.type="string" />
+  <key id="d6" for="edge" attr.name="maxspeed" attr.type="string" />
+  <key id="d5" for="edge" attr.name="length" attr.type="string" />
+  <key id="d4" for="node" attr.name="y" attr.type="string" />
+  <key id="d3" for="node" attr.name="x" attr.type="string" />
+  <key id="d2" for="graph" attr.name="name" attr.type="string" />
+  <key id="d1" for="graph" attr.name="source" attr.type="string" />
+  <key id="d0" for="graph" attr.name="crs" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="0">
+      <data key="d3">77.105</data>
+      <data key="d4">28.741</data>
+    </node>
+    <node id="1">
+      <data key="d3">77.1075</data>
+      <data key="d4">28.741</data>
+    </node>
+    <node id="2">
+      <data key="d3">77.11</data>
+      <data key="d4">28.741</data>
+    </node>
+    <node id="3">
+      <data key="d3">77.105</data>
+      <data key="d4">28.7435</data>
+    </node>
+    <node id="4">
+      <data key="d3">77.1075</data>
+      <data key="d4">28.7435</data>
+    </node>
+    <node id="5">
+      <data key="d3">77.11</data>
+      <data key="d4">28.7435</data>
+    </node>
+    <node id="6">
+      <data key="d3">77.105</data>
+      <data key="d4">28.746</data>
+    </node>
+    <node id="7">
+      <data key="d3">77.1075</data>
+      <data key="d4">28.746</data>
+    </node>
+    <node id="8">
+      <data key="d3">77.11</data>
+      <data key="d4">28.746</data>
+    </node>
+    <node id="9">
+      <data key="d3">77.11500000000001</data>
+      <data key="d4">28.741</data>
+    </node>
+    <node id="10">
+      <data key="d3">77.1175</data>
+      <data key="d4">28.741</data>
+    </node>
+    <node id="11">
+      <data key="d3">77.12</data>
+      <data key="d4">28.741</data>
+    </node>
+    <node id="12">
+      <data key="d3">77.11500000000001</data>
+      <data key="d4">28.7435</data>
+    </node>
+    <node id="13">
+      <data key="d3">77.1175</data>
+      <data key="d4">28.7435</data>
+    </node>
+    <node id="14">
+      <data key="d3">77.12</data>
+      <data key="d4">28.7435</data>
+    </node>
+    <node id="15">
+      <data key="d3">77.11500000000001</data>
+      <data key="d4">28.746</data>
+    </node>
+    <node id="16">
+      <data key="d3">77.1175</data>
+      <data key="d4">28.746</data>
+    </node>
+    <node id="17">
+      <data key="d3">77.12</data>
+      <data key="d4">28.746</data>
+    </node>
+    <edge source="0" target="1" id="0">
+      <data key="d5">244.202031853654</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 avenue 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.105 28.741, 77.1075 28.741)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.30424382243848</data>
+    </edge>
+    <edge source="0" target="3" id="0">
+      <data key="d5">277.07881023081876</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 street 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.105 28.741, 77.105 28.7435)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.8993486732379</data>
+    </edge>
+    <edge source="0" target="4" id="0">
+      <data key="d5">369.3316663309495</data>
+      <data key="d6">20</data>
+      <data key="d7">residential</data>
+      <data key="d8">One-way diagonal</data>
+      <data key="d9">True</data>
+      <data key="d10">LINESTRING (77.105 28.741, 77.1075 28.7435)</data>
+      <data key="d11">20.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">66.4796999395709</data>
+    </edge>
+    <edge source="1" target="0" id="0">
+      <data key="d5">244.202031853654</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 avenue 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1075 28.741, 77.105 28.741)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.30424382243848</data>
+    </edge>
+    <edge source="1" target="2" id="0">
+      <data key="d5">244.202031853654</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 avenue 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1075 28.741, 77.11 28.741)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.30424382243848</data>
+    </edge>
+    <edge source="1" target="4" id="0">
+      <data key="d5">277.07881023081876</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 street 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1075 28.741, 77.1075 28.7435)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.8993486732379</data>
+    </edge>
+    <edge source="2" target="1" id="0">
+      <data key="d5">244.202031853654</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 avenue 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11 28.741, 77.1075 28.741)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.30424382243848</data>
+    </edge>
+    <edge source="2" target="5" id="0">
+      <data key="d5">277.07881023081876</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 street 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11 28.741, 77.11 28.7435)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.8993486732379</data>
+    </edge>
+    <edge source="3" target="0" id="0">
+      <data key="d5">277.07881023081876</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 street 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.105 28.7435, 77.105 28.741)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.8993486732379</data>
+    </edge>
+    <edge source="3" target="4" id="0">
+      <data key="d5">244.1962182083327</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 avenue 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.105 28.7435, 77.1075 28.7435)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.303546184999924</data>
+    </edge>
+    <edge source="3" target="6" id="0">
+      <data key="d5">277.0789127628963</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 street 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.105 28.7435, 77.105 28.746)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.899363437857076</data>
+    </edge>
+    <edge source="4" target="1" id="0">
+      <data key="d5">277.07881023081876</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 street 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1075 28.7435, 77.1075 28.741)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.8993486732379</data>
+    </edge>
+    <edge source="4" target="3" id="0">
+      <data key="d5">244.1962182083327</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 avenue 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1075 28.7435, 77.105 28.7435)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.303546184999924</data>
+    </edge>
+    <edge source="4" target="5" id="0">
+      <data key="d5">244.1962182083327</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 avenue 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1075 28.7435, 77.11 28.7435)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.303546184999924</data>
+    </edge>
+    <edge source="4" target="7" id="0">
+      <data key="d5">277.0789127628963</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 street 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1075 28.7435, 77.1075 28.746)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.899363437857076</data>
+    </edge>
+    <edge source="5" target="2" id="0">
+      <data key="d5">277.07881023081876</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 street 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11 28.7435, 77.11 28.741)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.8993486732379</data>
+    </edge>
+    <edge source="5" target="4" id="0">
+      <data key="d5">244.1962182083327</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 avenue 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11 28.7435, 77.1075 28.7435)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.303546184999924</data>
+    </edge>
+    <edge source="5" target="8" id="0">
+      <data key="d5">277.0789127628963</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 street 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11 28.7435, 77.11 28.746)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.899363437857076</data>
+    </edge>
+    <edge source="5" target="12" id="0">
+      <data key="d5">488.3924363914537</data>
+      <data key="d6">20</data>
+      <data key="d7">residential</data>
+      <data key="d8">Central crossing</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11 28.7435, 77.11500000000001 28.7435)</data>
+      <data key="d11">20.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">87.91063855046167</data>
+    </edge>
+    <edge source="6" target="3" id="0">
+      <data key="d5">277.0789127628963</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 street 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.105 28.746, 77.105 28.7435)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.899363437857076</data>
+    </edge>
+    <edge source="6" target="7" id="0">
+      <data key="d5">244.1904040983415</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 avenue 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.105 28.746, 77.1075 28.746)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.302848491800983</data>
+    </edge>
+    <edge source="7" target="4" id="0">
+      <data key="d5">277.0789127628963</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 street 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1075 28.746, 77.1075 28.7435)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.899363437857076</data>
+    </edge>
+    <edge source="7" target="6" id="0">
+      <data key="d5">244.1904040983415</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 avenue 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1075 28.746, 77.105 28.746)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.302848491800983</data>
+    </edge>
+    <edge source="7" target="8" id="0">
+      <data key="d5">244.1904040983415</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 avenue 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1075 28.746, 77.11 28.746)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.302848491800983</data>
+    </edge>
+    <edge source="8" target="5" id="0">
+      <data key="d5">277.0789127628963</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 street 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11 28.746, 77.11 28.7435)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.899363437857076</data>
+    </edge>
+    <edge source="8" target="7" id="0">
+      <data key="d5">244.1904040983415</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 1 avenue 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11 28.746, 77.1075 28.746)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.302848491800983</data>
+    </edge>
+    <edge source="8" target="15" id="0">
+      <data key="d5">488.38080817146755</data>
+      <data key="d6">15</data>
+      <data key="d7">residential</data>
+      <data key="d8">Southern relief crossing</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11 28.746, 77.11500000000001 28.746)</data>
+      <data key="d11">15.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">117.21139396115221</data>
+    </edge>
+    <edge source="9" target="10" id="0">
+      <data key="d5">244.202031853654</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 avenue 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11500000000001 28.741, 77.1175 28.741)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.30424382243848</data>
+    </edge>
+    <edge source="9" target="12" id="0">
+      <data key="d5">277.07881023081876</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 street 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11500000000001 28.741, 77.11500000000001 28.7435)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.8993486732379</data>
+    </edge>
+    <edge source="10" target="9" id="0">
+      <data key="d5">244.202031853654</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 avenue 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1175 28.741, 77.11500000000001 28.741)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.30424382243848</data>
+    </edge>
+    <edge source="10" target="11" id="0">
+      <data key="d5">244.202031853654</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 avenue 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1175 28.741, 77.12 28.741)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.30424382243848</data>
+    </edge>
+    <edge source="10" target="13" id="0">
+      <data key="d5">277.07881023081876</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 street 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1175 28.741, 77.1175 28.7435)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.8993486732379</data>
+    </edge>
+    <edge source="11" target="10" id="0">
+      <data key="d5">244.202031853654</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 avenue 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.12 28.741, 77.1175 28.741)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.30424382243848</data>
+    </edge>
+    <edge source="11" target="14" id="0">
+      <data key="d5">277.07881023081876</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 street 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.12 28.741, 77.12 28.7435)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.8993486732379</data>
+    </edge>
+    <edge source="12" target="9" id="0">
+      <data key="d5">277.07881023081876</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 street 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11500000000001 28.7435, 77.11500000000001 28.741)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.8993486732379</data>
+    </edge>
+    <edge source="12" target="13" id="0">
+      <data key="d5">244.1962182083327</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 avenue 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11500000000001 28.7435, 77.1175 28.7435)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.303546184999924</data>
+    </edge>
+    <edge source="12" target="15" id="0">
+      <data key="d5">277.0789127628963</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 street 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11500000000001 28.7435, 77.11500000000001 28.746)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.899363437857076</data>
+    </edge>
+    <edge source="12" target="5" id="0">
+      <data key="d5">488.3924363914537</data>
+      <data key="d6">20</data>
+      <data key="d7">residential</data>
+      <data key="d8">Central crossing</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11500000000001 28.7435, 77.11 28.7435)</data>
+      <data key="d11">20.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">87.91063855046167</data>
+    </edge>
+    <edge source="13" target="10" id="0">
+      <data key="d5">277.07881023081876</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 street 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1175 28.7435, 77.1175 28.741)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.8993486732379</data>
+    </edge>
+    <edge source="13" target="12" id="0">
+      <data key="d5">244.1962182083327</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 avenue 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1175 28.7435, 77.11500000000001 28.7435)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.303546184999924</data>
+    </edge>
+    <edge source="13" target="14" id="0">
+      <data key="d5">244.1962182083327</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 avenue 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1175 28.7435, 77.12 28.7435)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.303546184999924</data>
+    </edge>
+    <edge source="13" target="16" id="0">
+      <data key="d5">277.0789127628963</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 street 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1175 28.7435, 77.1175 28.746)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.899363437857076</data>
+    </edge>
+    <edge source="14" target="11" id="0">
+      <data key="d5">277.07881023081876</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 street 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.12 28.7435, 77.12 28.741)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.8993486732379</data>
+    </edge>
+    <edge source="14" target="13" id="0">
+      <data key="d5">244.1962182083327</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 avenue 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.12 28.7435, 77.1175 28.7435)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.303546184999924</data>
+    </edge>
+    <edge source="14" target="17" id="0">
+      <data key="d5">277.0789127628963</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 street 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.12 28.7435, 77.12 28.746)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.899363437857076</data>
+    </edge>
+    <edge source="15" target="12" id="0">
+      <data key="d5">277.0789127628963</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 street 1</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11500000000001 28.746, 77.11500000000001 28.7435)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.899363437857076</data>
+    </edge>
+    <edge source="15" target="16" id="0">
+      <data key="d5">244.1904040983415</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 avenue 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11500000000001 28.746, 77.1175 28.746)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.302848491800983</data>
+    </edge>
+    <edge source="15" target="8" id="0">
+      <data key="d5">488.38080817146755</data>
+      <data key="d6">15</data>
+      <data key="d7">residential</data>
+      <data key="d8">Southern relief crossing</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.11500000000001 28.746, 77.11 28.746)</data>
+      <data key="d11">15.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">117.21139396115221</data>
+    </edge>
+    <edge source="16" target="13" id="0">
+      <data key="d5">277.0789127628963</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 street 2</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1175 28.746, 77.1175 28.7435)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.899363437857076</data>
+    </edge>
+    <edge source="16" target="15" id="0">
+      <data key="d5">244.1904040983415</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 avenue 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1175 28.746, 77.11500000000001 28.746)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.302848491800983</data>
+    </edge>
+    <edge source="16" target="17" id="0">
+      <data key="d5">244.1904040983415</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 avenue 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.1175 28.746, 77.12 28.746)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.302848491800983</data>
+    </edge>
+    <edge source="17" target="14" id="0">
+      <data key="d5">277.0789127628963</data>
+      <data key="d6">25</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 street 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.12 28.746, 77.12 28.7435)</data>
+      <data key="d11">25.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">39.899363437857076</data>
+    </edge>
+    <edge source="17" target="16" id="0">
+      <data key="d5">244.1904040983415</data>
+      <data key="d6">30</data>
+      <data key="d7">residential</data>
+      <data key="d8">District 2 avenue 3</data>
+      <data key="d9">False</data>
+      <data key="d10">LINESTRING (77.12 28.746, 77.1175 28.746)</data>
+      <data key="d11">30.0</data>
+      <data key="d12">OSM maxspeed tag (modeled limit-based speed)</data>
+      <data key="d13">29.302848491800983</data>
+    </edge>
+    <data key="d0">EPSG:4326</data>
+    <data key="d1">synthetic</data>
+    <data key="d2">Twin District Demo</data>
+  </graph>
+</graphml>
